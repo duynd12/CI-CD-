@@ -1,0 +1,11 @@
+name: test ci -cd
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    run-on: ubuntu-latest
+  steps:
+    - name: Print Hello World
+      run: echo "Nguyen Dang Duy"
