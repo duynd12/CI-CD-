@@ -6,6 +6,6 @@ on:
 jobs:
   build:
     run-on: ubuntu-latest
-  steps:
-    -name: Print Hello World
-    run: echo "Nguyen Dang Duy"
+    steps:
+      -name: Print Hello World
+      run: echo "Nguyen Dang Duy"
